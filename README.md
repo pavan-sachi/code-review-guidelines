@@ -1,11 +1,18 @@
  
 ## Pull Requests
 
-*   Keep the Pull requests independent, and split the PRs if necessary
+*   Guidelines  
+    * Add ticket number in commit messages
+    * Add a title and description in the PR request, so that the reviewer has all the details to review the code
+    * Ensure the tests and linting are passing before raising the PR request
+    * Ensure the build kite is passed on the feature branch
+    * It helps to do a self review first before requesting for code review
+    * Ensure PR request is adhering to single responsibility principle. Create different PRs.
+    * Ensure pull requests are small and easy for code reviewers. Recommended PR is 250 lines.
 
 *   Steps to follow for a Pull Request
-    *   Create a Pull Request and add reviewers
-    *   After review, while merging follow the below rules
+    *   Create a Pull Request and add code reviewers
+    *   After review, while merging follow the below rules,
         *   if the PR is merged from feature branch to Develop branch, then always Squash and Merge
         *   if the PR is merged from Develop to Master, then always Only Merge
 
